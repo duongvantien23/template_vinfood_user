@@ -1,0 +1,32 @@
+.c-0 {
+    position: fixed; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    right: 10px; 
+    z-index: 999;
+  }
+  
+  .scroll_group {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .social-wrapper {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+  
+  .social-icon {
+    display: inline-block; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  
+  .social-title {
+    display: inline-block; 
+    vertical-align: middle; 
+  }
+  .social-icon img{
+    width: 40px;
+    border-radius: 40%;
+  }

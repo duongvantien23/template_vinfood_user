@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --Background-header--------------------------------------------------------------------------------------- */
+.background-heading{
+    background-image:url("//theme.hstatic.net/200000332199/1000706721/14/bg_breadcrumb.png?v=222");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 60px 0;
+    float: left;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.col_center ul.home-center li a{
+  text-decoration: none;
+  color:black
+}
+.col_center ul.home-center li .a-tittle {
+    color: #91ad41;
+}
+.col_center ul.home-center li a:hover{
+    color: #91ad41;
+}
+.a-tittle{
+    margin-bottom: 20px;
+}
+.regester-container{
+    display: inline-flex;
+}
+.profile-regester-user{
+    margin: 80px 0px 0px 200px;
+}
+.profile-regester-user-right{
+    margin: 150px 400px 0px 40px;
+    
+}
+.tittle_login{
+    margin: 0px 0px 0px 200px;
+}
+.profile-small{
+    padding-bottom: 50px;
+}
+.btn-regester input{
+  margin-right: 20px;
+  width: 90px;
+  height: 40px;
+  background-color: #91ad41;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-regester a{
+    color: black;
+    font-size: 13px;
+}
+.btn-regester{
+    padding-top: 30px;
+}
+.btn-regester a:hover{
+    color: #91ad41;
+}
+.form-regester input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
